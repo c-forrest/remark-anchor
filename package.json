@@ -1,0 +1,38 @@
+{
+  "name": "remark-anchor",
+  "version": "1.0.0",
+  "description": "A Remark plugin to transform empty links with id attributes into anchor nodes and handle Markdown serialization. Used for OI-wiki only.",
+  "type": "module",
+  "main": "index.js",
+  "exports": "./index.js",
+  "scripts": {
+    "test": "cd test && ava && cd .."
+  },
+  "keywords": [
+    "remark",
+    "unified",
+    "plugin",
+    "markdown",
+    "anchor"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "unist-util-visit": "^5.0.0"
+  },
+  "devDependencies": {
+    "ava": "^6.4.1",
+    "remark-attributes": "^0.3.2",
+    "remark-copywriting-correct": "^0.6.0",
+    "remark-gfm": "^4.0.1",
+    "remark-math": "^6.0.0",
+    "remark-math-space": "^3.0.0",
+    "remark-parse": "^11.0.0",
+    "remark-stringify": "^11.0.0",
+    "to-vfile": "^8.0.0",
+    "unified": "^11.0.5",
+    "unist-util-inspect": "^8.1.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
